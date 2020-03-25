@@ -8,8 +8,11 @@ public class Student {
     private int age;
     private double meanGrade;
 
-    public Student(String firstName) {
+    public Student(String firstName, String lastName, int age, double meanGrade) {
         this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.meanGrade = meanGrade;
     }
 
     @Override
